@@ -70,7 +70,7 @@ Redis replication 을 이용하는 경우 최소한의 혹은 서비스 중단 �
 > ##### 그래서 어떤 거 쓰라는...?
 
 ### Redis Cluster
-Redis Cluster 에서는 자동 샤딩과 높은 가용성을 얻을 수 있습니다. Redis Cluster 는 _query routing_ 과 _client side partitioning_ 방식을 혼합해서 사용하고 있습니다.
+Redis Cluster 에서는 자동 샤딩과 높은 가용성을 얻을 수 있습니다. Redis Cluster 는 _query routing_ 과 _client side partitioning_ 방식을 혼합해서 사용하고 있습니다. [Cluster tutorial][redis-cluster-tutorial]
 
 ### Twemproxy
 트위터에서 개발한 멤캐시와 레디스 프로토콜을 위한 프록시 입니다. 싱글 스레드로 운영되고 C로 작성되어 있으며 완전 빠릅니다. (Apache 2.0 license)
@@ -90,3 +90,4 @@ Twemproxy을 대체할 만한 다른 방법은 _consistent hashing_ 이나 비�
 [twemproxy-link]: https://github.com/twitter/twemproxy
 [twemproxy-more]: http://antirez.com/news/44
 [redis-client]: https://redis.io/clients
+[redis-cluster-tutorial]: https://redis.io/topics/cluster-tutorial
